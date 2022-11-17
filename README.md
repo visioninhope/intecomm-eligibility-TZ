@@ -1,2 +1,0 @@
-# intecomm-eligibility
-Assess eligibility
