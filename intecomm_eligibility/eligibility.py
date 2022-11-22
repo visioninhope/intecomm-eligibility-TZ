@@ -5,6 +5,8 @@ from edc_vitals import calculate_avg_bp
 
 
 class ScreeningEligibility(Base):
+    """ "Assess the eligibility of an individual to participate."""
+
     def __init__(self, **kwargs):
         self._qualifying_conditions = []
         self.age_in_years = None
