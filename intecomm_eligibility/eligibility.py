@@ -168,7 +168,7 @@ class ScreeningEligibility(Base):
             if (
                 sys_blood_pressure_avg is not None
                 and dia_blood_pressure_avg is not None
-                and (sys_blood_pressure_avg > 140 or dia_blood_pressure_avg > 90)
+                and (sys_blood_pressure_avg > 160 or dia_blood_pressure_avg > 100)
             ):
                 self.eligible = NO
                 self.reasons_ineligible.update(bp_high="BP high")
