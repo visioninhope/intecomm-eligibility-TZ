@@ -222,10 +222,10 @@ class EligibilityTests(TestCase):
 
         # BP high
         cleaned_data.update(
-            sys_blood_pressure_one=141,
-            sys_blood_pressure_two=141,
-            dia_blood_pressure_one=91,
-            dia_blood_pressure_two=91,
+            sys_blood_pressure_one=161,
+            sys_blood_pressure_two=161,
+            dia_blood_pressure_one=101,
+            dia_blood_pressure_two=101,
         )
         eligibility = ScreeningEligibility(cleaned_data=cleaned_data)
         self.assertIn("bp_high", eligibility.reasons_ineligible)

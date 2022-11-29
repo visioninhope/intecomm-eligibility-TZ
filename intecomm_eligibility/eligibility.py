@@ -5,6 +5,8 @@ from edc_vitals import calculate_avg_bp
 
 
 class ScreeningEligibility(Base):
+    """ "Assess the eligibility of an individual to participate."""
+
     def __init__(self, **kwargs):
         self._qualifying_conditions = []
         self.age_in_years = None
@@ -166,7 +168,7 @@ class ScreeningEligibility(Base):
             if (
                 sys_blood_pressure_avg is not None
                 and dia_blood_pressure_avg is not None
-                and (sys_blood_pressure_avg > 140 or dia_blood_pressure_avg > 90)
+                and (sys_blood_pressure_avg > 160 or dia_blood_pressure_avg > 100)
             ):
                 self.eligible = NO
                 self.reasons_ineligible.update(bp_high="BP high")
