@@ -67,7 +67,7 @@ class ScreeningEligibility(Base):
             "in_care_6m": FC(YES, "Not in care for 6m"),
             "lives_nearby": FC(YES, "Does not live in catchment area"),
             "pregnant": FC([NO, NOT_APPLICABLE], "Pregnant"),
-            "requires_acute_care": FC(NO, "Glucose history"),
+            "requires_acute_care": FC(NO, "Requires acute care"),
             "staying_nearby_6": FC(YES, "Unable/Unwilling to stay in catchment area"),
             "sys_blood_pressure_avg": None,
             "sys_blood_pressure_one": None,
