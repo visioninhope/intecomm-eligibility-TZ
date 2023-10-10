@@ -7,7 +7,6 @@ Assess inclusion and exclusion criteria for INTECOMM trial
 
 A dependency of the INTECOMM_ trial EDC.
 
-
 .. |pypi| image:: https://img.shields.io/pypi/v/intecomm-eligibility.svg
     :target: https://pypi.python.org/pypi/intecomm-eligibility
 
