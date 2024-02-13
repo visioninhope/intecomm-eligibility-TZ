@@ -10,8 +10,8 @@ A dependency of the INTECOMM_ trial EDC.
 .. |pypi| image:: https://img.shields.io/pypi/v/intecomm-eligibility.svg
     :target: https://pypi.python.org/pypi/intecomm-eligibility
 
-.. |actions| image:: https://github.com/intecomm-trial/intecomm-eligibility/workflows/build/badge.svg?branch=develop
-  :target: https://github.com/intecomm-trial/intecomm-eligibility/actions?query=workflow:build
+.. |actions| image:: https://github.com/intecomm-trial/intecomm-eligibility/actions/workflows/build.yml/badge.svg
+  :target: https://github.com/intecomm-trial/intecomm-eligibility/actions/workflows/build.yml
 
 .. |codecov| image:: https://codecov.io/gh/intecomm-trial/intecomm-eligibility/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/intecomm-trial/intecomm-eligibility
